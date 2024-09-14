@@ -11,8 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.projectlombok.version>1.18.30</org.projectlombok.version>
-        <apache.poi.version>5.2.5</apache.poi.version>
-        <telegram.version>6.9.0</telegram.version>
+        <telegram.version>6.9.7.1</telegram.version>
     </properties>
 
     <dependencies>
@@ -27,13 +26,5 @@
             <artifactId>telegrambotsextensions</artifactId>
             <version>${telegram.version}</version>
         </dependency>
-        <!-- Lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${org.projectlombok.version}</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
-
 </project>
